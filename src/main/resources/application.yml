@@ -2,5 +2,6 @@ spring:
   data:
     mongodb:
       database: Book
+      # host name should be same name as the database container name that you have created from mongodb image
       host: mrdevopsmongodb 
       port: 27017
